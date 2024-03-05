@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d373f270152fa7478c79d1c2ec17a32, type: 3}
+  m_Name: P1 Spawning In
+  m_EditorClassIdentifier: 
+  OnFixedUpdate: []
+  OnUpdate: []
+  OnEnter: []
+  OnExit: []
+  IDCount: 1
+  Transitions:
+  - ID: 0
+    ConditionToPass: {fileID: 11400000, guid: fb906de90d1108344822c7bf08b07c19, type: 2}
+    TargetState: {fileID: 11400000, guid: b7eeccbb43aedd2448c1c457e9a8e063, type: 2}
+    Disable: 0

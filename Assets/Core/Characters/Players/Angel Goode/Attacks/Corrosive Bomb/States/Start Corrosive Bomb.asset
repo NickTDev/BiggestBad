@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d373f270152fa7478c79d1c2ec17a32, type: 3}
+  m_Name: Start Corrosive Bomb
+  m_EditorClassIdentifier: 
+  OnFixedUpdate: []
+  OnUpdate:
+  - {fileID: 11400000, guid: d3651aea3f4c2034592e245b1cc7eb8e, type: 2}
+  OnEnter:
+  - {fileID: 11400000, guid: ac76aa801721fe34581d4f29299abef9, type: 2}
+  OnExit:
+  - {fileID: 11400000, guid: 9862738d256e5ea4bbcdfd4a4af0851c, type: 2}
+  - {fileID: 11400000, guid: bef9b3ddf9a14d1499a266bca35aea31, type: 2}
+  IDCount: 1
+  Transitions:
+  - ID: 0
+    ConditionToPass: {fileID: 11400000, guid: 35b90fe60d4f4de4a9f37c12ae29a308, type: 2}
+    TargetState: {fileID: 11400000, guid: 4beb9f69b0e368946bd515398de996d2, type: 2}
+    Disable: 0

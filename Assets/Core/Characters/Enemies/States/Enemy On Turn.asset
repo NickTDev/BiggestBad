@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d373f270152fa7478c79d1c2ec17a32, type: 3}
+  m_Name: Enemy On Turn
+  m_EditorClassIdentifier: 
+  OnFixedUpdate: []
+  OnUpdate: []
+  OnEnter:
+  - {fileID: 11400000, guid: 9dc7e743573e7204ba3d2a4a3573c976, type: 2}
+  - {fileID: 11400000, guid: 82effa9520c17cf42b06068cea975fb3, type: 2}
+  OnExit: []
+  IDCount: 5
+  Transitions:
+  - ID: 0
+    ConditionToPass: {fileID: 11400000, guid: 4aec14ced27e6a746a6c4f43e37eafdd, type: 2}
+    TargetState: {fileID: 11400000, guid: 1de1e74178c1d99449c1395466cfff81, type: 2}
+    Disable: 0
+  - ID: 1
+    ConditionToPass: {fileID: 11400000, guid: 08c386dc14f610944b6f197fa16520e1, type: 2}
+    TargetState: {fileID: 11400000, guid: ba6f8b350c66dc14eb0dda075ef676c1, type: 2}
+    Disable: 0
+  - ID: 2
+    ConditionToPass: {fileID: 11400000, guid: 3a783bafd0b4b6c4f917bd61cd0fa73e, type: 2}
+    TargetState: {fileID: 11400000, guid: 0c32d40316af1f54397af1a001626166, type: 2}
+    Disable: 0
+  - ID: 4
+    ConditionToPass: {fileID: 11400000, guid: eb4aa562be9cc224090164820a46c812, type: 2}
+    TargetState: {fileID: 11400000, guid: 0c32d40316af1f54397af1a001626166, type: 2}
+    Disable: 0

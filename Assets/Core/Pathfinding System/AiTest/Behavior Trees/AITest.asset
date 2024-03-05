@@ -1,0 +1,424 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ff8d6ac96fd3f4ba3ccdc1ab7089c5, type: 3}
+  m_Name: AITest
+  m_EditorClassIdentifier: 
+  AllWindows:
+  - ID: 8
+    NodeToDraw: {fileID: 11400000, guid: 4f7a8f033cc54b7488ab2fb261514021, type: 2}
+    WindowRect:
+      serializedVersion: 2
+      x: 1134
+      y: 90.8
+      width: 250
+      height: 75
+    WindowTitle: State
+    EnterNode: 0
+    TargetNode: 0
+    IsDuplicate: 0
+    IsAssigned: 1
+    ShowActions: 1
+    ShowEnterExit: 1
+    Comment: 
+    Collapse: 1
+    PreviousCollapse: 1
+    StateRef:
+      CurrentState: {fileID: 11400000, guid: c624b1c60c72e5b44b971bd1bf67c528, type: 2}
+      PreviousState: {fileID: 11400000, guid: c624b1c60c72e5b44b971bd1bf67c528, type: 2}
+    TransitionRef:
+      PreviousCondition: {fileID: 0}
+      TransitionID: 0
+  - ID: 9
+    NodeToDraw: {fileID: 11400000, guid: 4f7a8f033cc54b7488ab2fb261514021, type: 2}
+    WindowRect:
+      serializedVersion: 2
+      x: 547
+      y: 529.8
+      width: 250
+      height: 75
+    WindowTitle: State
+    EnterNode: 0
+    TargetNode: 0
+    IsDuplicate: 0
+    IsAssigned: 1
+    ShowActions: 1
+    ShowEnterExit: 1
+    Comment: 
+    Collapse: 1
+    PreviousCollapse: 1
+    StateRef:
+      CurrentState: {fileID: 11400000, guid: ba6f8b350c66dc14eb0dda075ef676c1, type: 2}
+      PreviousState: {fileID: 11400000, guid: ba6f8b350c66dc14eb0dda075ef676c1, type: 2}
+    TransitionRef:
+      PreviousCondition: {fileID: 0}
+      TransitionID: 0
+  - ID: 10
+    NodeToDraw: {fileID: 11400000, guid: 4f7a8f033cc54b7488ab2fb261514021, type: 2}
+    WindowRect:
+      serializedVersion: 2
+      x: 843
+      y: 380.8
+      width: 250
+      height: 75
+    WindowTitle: State
+    EnterNode: 0
+    TargetNode: 0
+    IsDuplicate: 0
+    IsAssigned: 1
+    ShowActions: 1
+    ShowEnterExit: 1
+    Comment: 
+    Collapse: 1
+    PreviousCollapse: 1
+    StateRef:
+      CurrentState: {fileID: 11400000, guid: 4e3429ded0b47cc4b9ab38e0aca0618d, type: 2}
+      PreviousState: {fileID: 11400000, guid: 4e3429ded0b47cc4b9ab38e0aca0618d, type: 2}
+    TransitionRef:
+      PreviousCondition: {fileID: 0}
+      TransitionID: 0
+  - ID: 13
+    NodeToDraw: {fileID: 11400000, guid: ec4ded7b0be88324d9253b3f846500b9, type: 2}
+    WindowRect:
+      serializedVersion: 2
+      x: 548
+      y: 614.8
+      width: 250
+      height: 125
+    WindowTitle: Condition
+    EnterNode: 9
+    TargetNode: 10
+    IsDuplicate: 0
+    IsAssigned: 1
+    ShowActions: 1
+    ShowEnterExit: 0
+    Comment: 
+    Collapse: 0
+    PreviousCollapse: 0
+    StateRef:
+      CurrentState: {fileID: 0}
+      PreviousState: {fileID: 0}
+    TransitionRef:
+      PreviousCondition: {fileID: 11400000, guid: cdf6e35a7cc771b46b6854804205d576, type: 2}
+      TransitionID: 0
+  - ID: 24
+    NodeToDraw: {fileID: 11400000, guid: 4f7a8f033cc54b7488ab2fb261514021, type: 2}
+    WindowRect:
+      serializedVersion: 2
+      x: 20
+      y: 108.66667
+      width: 250
+      height: 352
+    WindowTitle: State
+    EnterNode: 0
+    TargetNode: 0
+    IsDuplicate: 0
+    IsAssigned: 1
+    ShowActions: 1
+    ShowEnterExit: 0
+    Comment: 
+    Collapse: 0
+    PreviousCollapse: 0
+    StateRef:
+      CurrentState: {fileID: 11400000, guid: 99b85dbb8f81cbb4e923fdc80a7eafc5, type: 2}
+      PreviousState: {fileID: 11400000, guid: 99b85dbb8f81cbb4e923fdc80a7eafc5, type: 2}
+    TransitionRef:
+      PreviousCondition: {fileID: 0}
+      TransitionID: 0
+  - ID: 25
+    NodeToDraw: {fileID: 11400000, guid: ec4ded7b0be88324d9253b3f846500b9, type: 2}
+    WindowRect:
+      serializedVersion: 2
+      x: 294
+      y: 179.66669
+      width: 250
+      height: 125
+    WindowTitle: Condition
+    EnterNode: 24
+    TargetNode: 29
+    IsDuplicate: 0
+    IsAssigned: 1
+    ShowActions: 1
+    ShowEnterExit: 0
+    Comment: 
+    Collapse: 0
+    PreviousCollapse: 0
+    StateRef:
+      CurrentState: {fileID: 0}
+      PreviousState: {fileID: 0}
+    TransitionRef:
+      PreviousCondition: {fileID: 11400000, guid: 2728350b4c955954ea9ccf12feb20cdc, type: 2}
+      TransitionID: 0
+  - ID: 29
+    NodeToDraw: {fileID: 11400000, guid: 4f7a8f033cc54b7488ab2fb261514021, type: 2}
+    WindowRect:
+      serializedVersion: 2
+      x: 574
+      y: 77.66667
+      width: 250
+      height: 330
+    WindowTitle: State
+    EnterNode: 0
+    TargetNode: 0
+    IsDuplicate: 0
+    IsAssigned: 1
+    ShowActions: 1
+    ShowEnterExit: 0
+    Comment: 
+    Collapse: 0
+    PreviousCollapse: 0
+    StateRef:
+      CurrentState: {fileID: 11400000, guid: 0c32d40316af1f54397af1a001626166, type: 2}
+      PreviousState: {fileID: 11400000, guid: 0c32d40316af1f54397af1a001626166, type: 2}
+    TransitionRef:
+      PreviousCondition: {fileID: 0}
+      TransitionID: 0
+  - ID: 30
+    NodeToDraw: {fileID: 11400000, guid: ec4ded7b0be88324d9253b3f846500b9, type: 2}
+    WindowRect:
+      serializedVersion: 2
+      x: 851
+      y: 80.66667
+      width: 250
+      height: 125
+    WindowTitle: Condition
+    EnterNode: 29
+    TargetNode: 8
+    IsDuplicate: 0
+    IsAssigned: 1
+    ShowActions: 1
+    ShowEnterExit: 0
+    Comment: 
+    Collapse: 0
+    PreviousCollapse: 0
+    StateRef:
+      CurrentState: {fileID: 0}
+      PreviousState: {fileID: 0}
+    TransitionRef:
+      PreviousCondition: {fileID: 11400000, guid: 35d2d0952dad8254eb0937cd6eeb0704, type: 2}
+      TransitionID: 0
+  - ID: 31
+    NodeToDraw: {fileID: 11400000, guid: ec4ded7b0be88324d9253b3f846500b9, type: 2}
+    WindowRect:
+      serializedVersion: 2
+      x: 290
+      y: 528.6667
+      width: 250
+      height: 125
+    WindowTitle: Condition
+    EnterNode: 29
+    TargetNode: 9
+    IsDuplicate: 0
+    IsAssigned: 1
+    ShowActions: 1
+    ShowEnterExit: 0
+    Comment: 
+    Collapse: 0
+    PreviousCollapse: 0
+    StateRef:
+      CurrentState: {fileID: 0}
+      PreviousState: {fileID: 0}
+    TransitionRef:
+      PreviousCondition: {fileID: 11400000, guid: e723cba5e487d29469c594ee1f1b406d, type: 2}
+      TransitionID: 1
+  - ID: 33
+    NodeToDraw: {fileID: 11400000, guid: ec4ded7b0be88324d9253b3f846500b9, type: 2}
+    WindowRect:
+      serializedVersion: 2
+      x: 838
+      y: 477.8
+      width: 250
+      height: 125
+    WindowTitle: Condition
+    EnterNode: 10
+    TargetNode: 34
+    IsDuplicate: 0
+    IsAssigned: 1
+    ShowActions: 1
+    ShowEnterExit: 0
+    Comment: 
+    Collapse: 0
+    PreviousCollapse: 0
+    StateRef:
+      CurrentState: {fileID: 0}
+      PreviousState: {fileID: 0}
+    TransitionRef:
+      PreviousCondition: {fileID: 11400000, guid: 98b7a33beb2184e42b2b2f323d7f82a6, type: 2}
+      TransitionID: 7
+  - ID: 34
+    NodeToDraw: {fileID: 11400000, guid: 4f7a8f033cc54b7488ab2fb261514021, type: 2}
+    WindowRect:
+      serializedVersion: 2
+      x: 835
+      y: 616.8
+      width: 250
+      height: 75
+    WindowTitle: State
+    EnterNode: 0
+    TargetNode: 0
+    IsDuplicate: 0
+    IsAssigned: 1
+    ShowActions: 1
+    ShowEnterExit: 1
+    Comment: 
+    Collapse: 1
+    PreviousCollapse: 1
+    StateRef:
+      CurrentState: {fileID: 11400000, guid: 5f93a9cfdef1bfc4394b04c3016a2b64, type: 2}
+      PreviousState: {fileID: 11400000, guid: 5f93a9cfdef1bfc4394b04c3016a2b64, type: 2}
+    TransitionRef:
+      PreviousCondition: {fileID: 0}
+      TransitionID: 0
+  - ID: 35
+    NodeToDraw: {fileID: 11400000, guid: ec4ded7b0be88324d9253b3f846500b9, type: 2}
+    WindowRect:
+      serializedVersion: 2
+      x: 1116
+      y: 304.8
+      width: 250
+      height: 125
+    WindowTitle: Condition
+    EnterNode: 34
+    TargetNode: 37
+    IsDuplicate: 0
+    IsAssigned: 1
+    ShowActions: 1
+    ShowEnterExit: 0
+    Comment: 
+    Collapse: 0
+    PreviousCollapse: 0
+    StateRef:
+      CurrentState: {fileID: 0}
+      PreviousState: {fileID: 0}
+    TransitionRef:
+      PreviousCondition: {fileID: 11400000, guid: e723cba5e487d29469c594ee1f1b406d, type: 2}
+      TransitionID: 0
+  - ID: 36
+    NodeToDraw: {fileID: 11400000, guid: ec4ded7b0be88324d9253b3f846500b9, type: 2}
+    WindowRect:
+      serializedVersion: 2
+      x: 1119
+      y: 436.8
+      width: 250
+      height: 125
+    WindowTitle: Condition
+    EnterNode: 34
+    TargetNode: 38
+    IsDuplicate: 0
+    IsAssigned: 1
+    ShowActions: 1
+    ShowEnterExit: 0
+    Comment: 
+    Collapse: 0
+    PreviousCollapse: 0
+    StateRef:
+      CurrentState: {fileID: 0}
+      PreviousState: {fileID: 0}
+    TransitionRef:
+      PreviousCondition: {fileID: 11400000, guid: 35d2d0952dad8254eb0937cd6eeb0704, type: 2}
+      TransitionID: 1
+  - ID: 37
+    NodeToDraw: {fileID: 11400000, guid: 57163b98e586e1944b615803f24732fb, type: 2}
+    WindowRect:
+      serializedVersion: 2
+      x: 1394
+      y: 322.8
+      width: 125
+      height: 62.5
+    WindowTitle: Portal
+    EnterNode: 0
+    TargetNode: 0
+    IsDuplicate: 0
+    IsAssigned: 1
+    ShowActions: 1
+    ShowEnterExit: 0
+    Comment: 
+    Collapse: 0
+    PreviousCollapse: 0
+    StateRef:
+      CurrentState: {fileID: 11400000, guid: 4e3429ded0b47cc4b9ab38e0aca0618d, type: 2}
+      PreviousState: {fileID: 11400000, guid: 4e3429ded0b47cc4b9ab38e0aca0618d, type: 2}
+    TransitionRef:
+      PreviousCondition: {fileID: 0}
+      TransitionID: 0
+  - ID: 38
+    NodeToDraw: {fileID: 11400000, guid: 57163b98e586e1944b615803f24732fb, type: 2}
+    WindowRect:
+      serializedVersion: 2
+      x: 1394
+      y: 453.8
+      width: 125
+      height: 62.5
+    WindowTitle: Portal
+    EnterNode: 0
+    TargetNode: 0
+    IsDuplicate: 0
+    IsAssigned: 1
+    ShowActions: 1
+    ShowEnterExit: 0
+    Comment: 
+    Collapse: 0
+    PreviousCollapse: 0
+    StateRef:
+      CurrentState: {fileID: 11400000, guid: c624b1c60c72e5b44b971bd1bf67c528, type: 2}
+      PreviousState: {fileID: 11400000, guid: c624b1c60c72e5b44b971bd1bf67c528, type: 2}
+    TransitionRef:
+      PreviousCondition: {fileID: 0}
+      TransitionID: 0
+  - ID: 39
+    NodeToDraw: {fileID: 11400000, guid: ec4ded7b0be88324d9253b3f846500b9, type: 2}
+    WindowRect:
+      serializedVersion: 2
+      x: 1120
+      y: 575.8
+      width: 250
+      height: 125
+    WindowTitle: Condition
+    EnterNode: 34
+    TargetNode: 40
+    IsDuplicate: 0
+    IsAssigned: 1
+    ShowActions: 1
+    ShowEnterExit: 0
+    Comment: 
+    Collapse: 0
+    PreviousCollapse: 0
+    StateRef:
+      CurrentState: {fileID: 0}
+      PreviousState: {fileID: 0}
+    TransitionRef:
+      PreviousCondition: {fileID: 11400000, guid: 7cfefbd1d5f304245b1eeb7d25331f8f, type: 2}
+      TransitionID: 2
+  - ID: 40
+    NodeToDraw: {fileID: 11400000, guid: 57163b98e586e1944b615803f24732fb, type: 2}
+    WindowRect:
+      serializedVersion: 2
+      x: 1394
+      y: 598.8
+      width: 125
+      height: 62.5
+    WindowTitle: Portal
+    EnterNode: 0
+    TargetNode: 0
+    IsDuplicate: 0
+    IsAssigned: 1
+    ShowActions: 1
+    ShowEnterExit: 0
+    Comment: 
+    Collapse: 0
+    PreviousCollapse: 0
+    StateRef:
+      CurrentState: {fileID: 11400000, guid: 99b85dbb8f81cbb4e923fdc80a7eafc5, type: 2}
+      PreviousState: {fileID: 11400000, guid: 99b85dbb8f81cbb4e923fdc80a7eafc5, type: 2}
+    TransitionRef:
+      PreviousCondition: {fileID: 0}
+      TransitionID: 0
+  IDCount: 41

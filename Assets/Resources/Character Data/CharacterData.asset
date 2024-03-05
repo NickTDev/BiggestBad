@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 801a66460d944964888c1aadb073cd4b, type: 3}
+  m_Name: CharacterData
+  m_EditorClassIdentifier: 
+  _file: Biggest_Bad_Stats
+  _characters:
+  - ID: 1
+    Name: Angel Goode
+    HitPoints: 18
+    EnergyPoints: 100
+    Attack: 1
+    Defense: 1
+    Speed: 5
+    MovementType: Ground
+  - ID: 2
+    Name: Puncher Supreme
+    HitPoints: 24
+    EnergyPoints: 100
+    Attack: 2
+    Defense: 2
+    Speed: 4
+    MovementType: Ground
+  - ID: 3
+    Name: Doctor Purrfection
+    HitPoints: 14
+    EnergyPoints: 100
+    Attack: 2
+    Defense: 0
+    Speed: 4
+    MovementType: Ground
+  - ID: 4
+    Name: Showrunner
+    HitPoints: 18
+    EnergyPoints: 100
+    Attack: 1
+    Defense: 1
+    Speed: 6
+    MovementType: Ground
+  - ID: 5
+    Name: Captain Cactus
+    HitPoints: 24
+    EnergyPoints: 100
+    Attack: 1
+    Defense: 2
+    Speed: 5
+    MovementType: Sand Walk
+  - ID: 6
+    Name: Spider Cactus
+    HitPoints: 8
+    EnergyPoints: 100
+    Attack: 1
+    Defense: 0
+    Speed: 5
+    MovementType: Sand Walk
+  - ID: 7
+    Name: Bowler Cactus
+    HitPoints: 16
+    EnergyPoints: 100
+    Attack: 1
+    Defense: 1
+    Speed: 4
+    MovementType: Sand Walk
+  - ID: 8
+    Name: Needler
+    HitPoints: 10
+    EnergyPoints: 100
+    Attack: 1
+    Defense: 1
+    Speed: 3
+    MovementType: Sand Walk
+  - ID: 9
+    Name: Cactus Turret
+    HitPoints: 12
+    EnergyPoints: 100
+    Attack: 0
+    Defense: 1
+    Speed: 0
+    MovementType: Sand Walk

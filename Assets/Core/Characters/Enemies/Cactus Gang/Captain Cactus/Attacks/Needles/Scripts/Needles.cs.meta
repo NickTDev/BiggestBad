@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 64b94a18ae3bcee4481d3fe98442d062
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - CurrentState: {instanceID: 0}
+  - _damagePanel: {instanceID: 0}
+  - _needleBarragePrefab: {instanceID: 0}
+  - _parentCharacter: {instanceID: 0}
+  - clip: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

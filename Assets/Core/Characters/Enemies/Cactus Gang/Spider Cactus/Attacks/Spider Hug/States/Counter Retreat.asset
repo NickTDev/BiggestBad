@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d373f270152fa7478c79d1c2ec17a32, type: 3}
+  m_Name: Counter Retreat
+  m_EditorClassIdentifier: 
+  OnFixedUpdate:
+  - {fileID: 11400000, guid: c84280f7bc0d8b14e8b743a668ebac5e, type: 2}
+  OnUpdate: []
+  OnEnter: []
+  OnExit: []
+  IDCount: 1
+  Transitions:
+  - ID: 0
+    ConditionToPass: {fileID: 11400000, guid: 850f004b7c158aa4b9407ad024aef18f, type: 2}
+    TargetState: {fileID: 11400000, guid: eb50aa76321fefe43a15f0412ffb4625, type: 2}
+    Disable: 0

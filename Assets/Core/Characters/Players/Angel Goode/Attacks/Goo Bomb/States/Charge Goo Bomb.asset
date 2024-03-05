@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d373f270152fa7478c79d1c2ec17a32, type: 3}
+  m_Name: Charge Goo Bomb
+  m_EditorClassIdentifier: 
+  OnFixedUpdate:
+  - {fileID: 11400000, guid: 3c9e1d240a200164ab1c79017f4883bd, type: 2}
+  OnUpdate:
+  - {fileID: 11400000, guid: cecc40dc6d612d34d90ffec41c6724ef, type: 2}
+  OnEnter:
+  - {fileID: 11400000, guid: 949a344fb5f94ff47b5829ed7ebec8e0, type: 2}
+  - {fileID: 11400000, guid: bef9b3ddf9a14d1499a266bca35aea31, type: 2}
+  - {fileID: 11400000, guid: 9e29ed4e2608ee448b6059a690ba6f53, type: 2}
+  OnExit:
+  - {fileID: 11400000, guid: 9862738d256e5ea4bbcdfd4a4af0851c, type: 2}
+  IDCount: 1
+  Transitions:
+  - ID: 0
+    ConditionToPass: {fileID: 11400000, guid: 44e7e0e5e337bdc459c60ae9d54c466b, type: 2}
+    TargetState: {fileID: 11400000, guid: 72d29f04b0057894c866cd35e8d82ed9, type: 2}
+    Disable: 0

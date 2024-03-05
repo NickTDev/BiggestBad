@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d373f270152fa7478c79d1c2ec17a32, type: 3}
+  m_Name: Charge Corrosive Slider
+  m_EditorClassIdentifier: 
+  OnFixedUpdate:
+  - {fileID: 11400000, guid: bde4be13e2e286940a5686dba113861a, type: 2}
+  OnUpdate: []
+  OnEnter:
+  - {fileID: 11400000, guid: 949a344fb5f94ff47b5829ed7ebec8e0, type: 2}
+  - {fileID: 11400000, guid: bef9b3ddf9a14d1499a266bca35aea31, type: 2}
+  - {fileID: 11400000, guid: 9e29ed4e2608ee448b6059a690ba6f53, type: 2}
+  OnExit:
+  - {fileID: 11400000, guid: 54f19994b856df342924a258d2567a69, type: 2}
+  IDCount: 4
+  Transitions:
+  - ID: 0
+    ConditionToPass: {fileID: 11400000, guid: 2fbee293c58bd9948b0e0b14b1b385ef, type: 2}
+    TargetState: {fileID: 11400000}
+    Disable: 0
+  - ID: 1
+    ConditionToPass: {fileID: 11400000, guid: 7cbc2f36041ef8b4c8b13e132216116a, type: 2}
+    TargetState: {fileID: 11400000}
+    Disable: 0
+  - ID: 2
+    ConditionToPass: {fileID: 11400000, guid: 2c728109678e68140991bc2709b2d4b2, type: 2}
+    TargetState: {fileID: 11400000, guid: b0d188012c2bdd64ea649674e4c35c3a, type: 2}
+    Disable: 0
+  - ID: 3
+    ConditionToPass: {fileID: 11400000, guid: 02f1f32060c2a61458c58f05f30d3b36, type: 2}
+    TargetState: {fileID: 11400000, guid: a102a8aa0c44160479f34c2d1e7f4955, type: 2}
+    Disable: 0

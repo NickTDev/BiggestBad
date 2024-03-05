@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d373f270152fa7478c79d1c2ec17a32, type: 3}
+  m_Name: Player Waiting For Turn
+  m_EditorClassIdentifier: 
+  OnFixedUpdate: []
+  OnUpdate:
+  - {fileID: 11400000, guid: ec17ef1a0a4ac934cbeb3e8ede4290d7, type: 2}
+  OnEnter:
+  - {fileID: 11400000, guid: 82effa9520c17cf42b06068cea975fb3, type: 2}
+  OnExit:
+  - {fileID: 11400000, guid: aadf3b9df6f8d85489d8d9826c2e04f3, type: 2}
+  IDCount: 2
+  Transitions:
+  - ID: 0
+    ConditionToPass: {fileID: 11400000, guid: 58725562463a58647b33ed77f0ef4580, type: 2}
+    TargetState: {fileID: 11400000, guid: a76e1cfcf00b71648a005de68134acec, type: 2}
+    Disable: 0
+  - ID: 1
+    ConditionToPass: {fileID: 11400000, guid: 2728350b4c955954ea9ccf12feb20cdc, type: 2}
+    TargetState: {fileID: 11400000, guid: 1f1ca5c2cd072b64faa946b4f21cf997, type: 2}
+    Disable: 0

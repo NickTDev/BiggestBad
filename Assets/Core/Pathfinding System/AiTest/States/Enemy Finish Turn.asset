@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d373f270152fa7478c79d1c2ec17a32, type: 3}
+  m_Name: Enemy Finish Turn
+  m_EditorClassIdentifier: 
+  OnFixedUpdate: []
+  OnUpdate: []
+  OnEnter:
+  - {fileID: 11400000, guid: 56d1603b72b9f234b84770dd10eb3e8b, type: 2}
+  OnExit:
+  - {fileID: 11400000, guid: dca1098c7ba9d824cb43b5070f908c09, type: 2}
+  IDCount: 3
+  Transitions:
+  - ID: 2
+    ConditionToPass: {fileID: 11400000, guid: d5e2a0805a9e4bb4c854bf7b91146ba0, type: 2}
+    TargetState: {fileID: 11400000, guid: ebb3be10ecb43b74397819c46ab9ece6, type: 2}
+    Disable: 0

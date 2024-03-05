@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d373f270152fa7478c79d1c2ec17a32, type: 3}
+  m_Name: Charging Shield
+  m_EditorClassIdentifier: 
+  OnFixedUpdate: []
+  OnUpdate: []
+  OnEnter: []
+  OnExit:
+  - {fileID: 11400000, guid: 9d7b6b9fe149e244db0714f9e361aed5, type: 2}
+  IDCount: 2
+  Transitions:
+  - ID: 1
+    ConditionToPass: {fileID: 11400000, guid: bc8474f2b75681243a0bb79bf9b1c4c3, type: 2}
+    TargetState: {fileID: 11400000, guid: 9fb2ef2003de34b498ae193d09d99445, type: 2}
+    Disable: 0

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d373f270152fa7478c79d1c2ec17a32, type: 3}
+  m_Name: Tackle Damage
+  m_EditorClassIdentifier: 
+  OnFixedUpdate: []
+  OnUpdate: []
+  OnEnter:
+  - {fileID: 11400000, guid: cfa5b1db0993f4c46ab73b8f57006908, type: 2}
+  - {fileID: 11400000, guid: 7ec6c141334e5e743a2ffb224dddbc62, type: 2}
+  OnExit: []
+  IDCount: 2
+  Transitions: []

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d373f270152fa7478c79d1c2ec17a32, type: 3}
+  m_Name: Damage Results
+  m_EditorClassIdentifier: 
+  OnFixedUpdate: []
+  OnUpdate:
+  - {fileID: 11400000, guid: a69e168d36956dc4895182db22354a7c, type: 2}
+  OnEnter:
+  - {fileID: 11400000, guid: ac76aa801721fe34581d4f29299abef9, type: 2}
+  - {fileID: 11400000, guid: d62f4704343cf9c43b672eae520fec42, type: 2}
+  OnExit: []
+  IDCount: 0
+  Transitions: []

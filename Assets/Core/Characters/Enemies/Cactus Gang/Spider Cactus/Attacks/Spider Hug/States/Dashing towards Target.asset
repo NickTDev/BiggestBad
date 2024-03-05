@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d373f270152fa7478c79d1c2ec17a32, type: 3}
+  m_Name: Dashing towards Target
+  m_EditorClassIdentifier: 
+  OnFixedUpdate:
+  - {fileID: 11400000, guid: ad0079e022ef2e34d993029ce993e71e, type: 2}
+  OnUpdate: []
+  OnEnter:
+  - {fileID: 11400000, guid: 949a344fb5f94ff47b5829ed7ebec8e0, type: 2}
+  - {fileID: 11400000, guid: 3c9cf92fc1837ec4dba1747bdde1203c, type: 2}
+  - {fileID: 11400000, guid: 622de470c758f534a9503dbc728346e8, type: 2}
+  OnExit: []
+  IDCount: 5
+  Transitions:
+  - ID: 3
+    ConditionToPass: {fileID: 11400000, guid: baa42592b44229e4f9bd013bca05e494, type: 2}
+    TargetState: {fileID: 11400000, guid: 0d4e3ac2064961d4cb29b4a437a0d02f, type: 2}
+    Disable: 0

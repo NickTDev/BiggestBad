@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ff8d6ac96fd3f4ba3ccdc1ab7089c5, type: 3}
+  m_Name: test graph 1
+  m_EditorClassIdentifier: 
+  AllWindows:
+  - ID: 0
+    NodeToDraw: {fileID: 11400000, guid: 4f7a8f033cc54b7488ab2fb261514021, type: 2}
+    WindowRect:
+      serializedVersion: 2
+      x: 45
+      y: 108
+      width: 200
+      height: 390
+    WindowTitle: State
+    EnterNode: 0
+    TargetNode: 0
+    IsDuplicate: 0
+    IsAssigned: 1
+    ShowActions: 1
+    ShowEnterExit: 0
+    Comment: 
+    Collapse: 0
+    PreviousCollapse: 0
+    StateRef:
+      CurrentState: {fileID: 11400000, guid: 0d0431e6ae613be49883aa615a97575c, type: 2}
+      PreviousState: {fileID: 11400000, guid: 0d0431e6ae613be49883aa615a97575c, type: 2}
+    TransitionRef:
+      PreviousCondition: {fileID: 0}
+      TransitionID: 0
+  IDCount: 1

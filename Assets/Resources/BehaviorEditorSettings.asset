@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c3c537fcf91a3419905a5e715449fd, type: 3}
+  m_Name: BehaviorEditorSettings
+  m_EditorClassIdentifier: 
+  CurrentGraph: {fileID: 11400000, guid: 31419751074a5834e8514e9207096929, type: 2}
+  StateNodeLogic: {fileID: 11400000, guid: 4f7a8f033cc54b7488ab2fb261514021, type: 2}
+  PortalNodeLogic: {fileID: 11400000, guid: 57163b98e586e1944b615803f24732fb, type: 2}
+  TransitionNodeLogic: {fileID: 11400000, guid: ec4ded7b0be88324d9253b3f846500b9, type: 2}
+  CommentNodeLogic: {fileID: 11400000, guid: 3700c99517ff9194abe299b905fd93b1, type: 2}
+  ConnectTransition: 0
+  ActiveSkin: {fileID: 11400000, guid: b6188a81e4bef014bb7941f37452306b, type: 2}
